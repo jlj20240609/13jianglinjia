@@ -1,0 +1,27 @@
+SEO  搜索引擎优化                                    w3school      html教程
+<html>                                                                    （文件名后加html，可在浏览器中打开）
+       <head>
+             <title>中南大学</title>
+       </head>
+
+       <body bgcolor="#xxxxxx(16进制）">                                                      (R.G.B色/16进制调色）
+             <h1><font color ="blue"  size=8>中南大学</font></h1>             (设置字体颜色,大小）
+             <h2>学院</h2>
+             <h3>专业</h3>
+             <p>中南大学是一所综合性高校。</p>                         （描述）
+             <hr>                                                                                                        
+
+             <img src="文件路径.jpg" alt = “中南大学”>                                                                         (添加图片）
+             <ol> 学科
+             <li>软工</li>       
+             <li>计科</li>
+             <li>信息安全</li>
+             </ol>                                                    （ol指有序标签）
+       </body>            
+</html>       
+
+
+转义
+&lt      <
+&gt     >   
+&nbsp       空格                     

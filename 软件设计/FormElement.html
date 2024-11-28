@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<HTML>
+   <head>
+      <title>
+          Form表单实例
+      </title>
+      <META http-equiv=Content-Type content="text/html; charset=utf-8">
+   </head>
+   
+   <body>
+	<FORM Action='NextPage.html' Method='post'>
+	   <H1>软件工程专业新生注册</H2>
+		<LABEL>学生姓名： <INPUT  type='text' name='txtName'></LABEL>
+      <BR>
+      <LABEL>学生性别： 
+         <INPUT  type='radio' name='rdbtnSex' value='male'>男&nbsp;&nbsp;&nbsp;&nbsp;
+	      <INPUT  type='radio' name='rdbtnSex' value='female'>女
+      </LABEL>
+	   <BR>
+
+		<LABEL for='sltClass'>所在班级：</LABEL>
+      <SELECT name='sltClass'>
+    	   <OPTION value='01'>2001</OPTION>
+    	   <OPTION value='02'>2002</OPTION>
+    	   <OPTION value='03'>2003</OPTION>
+    	   <OPTION value='04'>2004</OPTION>
+         <OPTION value='05'>2005</OPTION>
+         <OPTION value='06'>2006</OPTION>
+    </SELECT>
+    <BR>
+    <LABEL for='txtareahobby'>个人简介：</LABEL>
+    <BR>
+         <TEXTAREA name='txtareaHobby' cols='50' rows='10' >简单介绍自己（100字以内）</TEXTAREA>
+    <BR>
+    <LABEL>照片上传：<INPUT type='file' name='filepic'></LABEL>
+    <BR>
+    <LABEL for='ckbxIn' accesskey='i'>是否在校：</LABEL>
+      <INPUT  type='checkbox' name='ckbxIn' value='in' id='ckbxIn'> &nbsp;&nbsp;&nbsp;
+    <BR>
+      <button onclick="alert('同学，已经将你不在校信息发送给辅导员！')">如果不在校，请点击我！</button>
+    <BR>
+
+    <BR>  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <INPUT type='submit' name='submitLogon'  value='提交信息' tabindex='1'>&nbsp;&nbsp;&nbsp;&nbsp;
+    <INPUT type='reset'  name='resetAgain'  value='重新填写'>
+   
+   </form>
+   </body>
+</HTML>   
